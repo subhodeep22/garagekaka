@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#8af189), color-stop(#97ef87), color-stop(#a2ee86), color-stop(#acec85), color-stop(#b5ea85), color-stop(#aee27b), color-stop(#a6db72), color-stop(#9fd368), color-stop(#85c552), color-stop(#69b63c), color-stop(#49a825), to(#1a9a04));
+  background-image: linear-gradient(to right top, #8af189, #97ef87, #a2ee86, #acec85, #b5ea85, #aee27b, #a6db72, #9fd368, #85c552, #69b63c, #49a825, #1a9a04);
+}
+
+.Wrapper {
+  width: 400px;
+}
+
+.Center {
+  border-radius: 5px;
+  background-color: white;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 10px 10px 50px #1d551c;
+          box-shadow: 10px 10px 50px #1d551c;
+}
+
+.Center img {
+  width: 100%;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  pointer-events: none;
+  color: grey;
+  font-size: 18px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.InputArea {
+  margin: 25px 0;
+  position: relative;
+}
+
+.InputArea input {
+  border: 1px solid silver;
+  padding: 10px;
+  outline: none;
+  font-size: 19px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+.InputArea input:focus {
+  border: 1px solid #30812e;
+}
+
+.InputArea input:focus ~ label {
+  -webkit-transform: translateY(-33px);
+          transform: translateY(-33px);
+  background: white;
+  font-size: 16px;
+  color: #30812e;
+}
+
+.InputArea input:valid ~ label {
+  -webkit-transform: translateY(-33px);
+          transform: translateY(-33px);
+  background: white;
+  font-size: 16px;
+  color: #30812e;
+}
+
+form {
+  padding: 10px;
+}
+
+form button {
+  margin: 10px 0;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  background-color: #30812e;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1d551c;
+}
+
+.Auth p {
+  margin: 15px 0;
+  font-size: 15px;
+  color: grey;
+}
+
+.Links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 15px 0;
+}
+
+.Links .Facebook img, .Links .Google img {
+  width: 50px;
+}
+
+.Signup a {
+  text-decoration: none;
+  color: #1d551c;
+}
+/*# sourceMappingURL=style.css.map */
